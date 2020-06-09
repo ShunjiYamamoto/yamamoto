@@ -1,0 +1,87 @@
+ body {
+
+    background: url(../img/shiisa_one.png);
+    background-color: rgb(255, 255, 255,0.5);
+    background-blend-mode: lighten;
+
+}
+
+.header {
+
+    background-color: rgb(102, 204, 255,0.8);
+    background-blend-mode: lighten;
+    margin-bottom: 50px;
+
+}
+
+.header-logo {
+    font-size: 80px;
+    font-family: serif;
+    color: 	rgba(0, 4, 253, 0.774);
+    padding: 20px;
+}
+
+.top {
+    text-align: center;
+}
+
+#datepicker,.top-coments {
+    display: inline-block;
+}
+
+.top .top-coments {
+
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+img {
+
+    width: 800px;
+    height: 500px;  
+
+}
+
+.notes {
+    font-size: 15px;
+}
+
+.contents {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contents h1 {
+    border-bottom: 1px solid #333 ;
+}
+
+
+.contents-item img {
+    width: 100px;
+    height: 100px;
+    margin:0 10px;
+    display: inline;
+}
+
+.contents-keywords a {
+    width: 100px;
+    height: 100px;
+    margin:0 33px;
+    display: inline;
+}
+
+#fadeIn{
+    display:none;
+}
+
+#date{
+    clear:both;
+    text-align:center;
+    font-size:24px;
+    height: 30px;
+    background-color: rgb(0, 102, 204,0.8);
+    background-blend-mode: lighten;
+}
+

@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    background: url(../img/shiisa_one.png);
+    background-color: rgb(255, 255, 255,0.5);
+    background-blend-mode: lighten;
+}
+
+.header{
+    display: flex;
+    border-bottom: 1px solid #333 ;
+}
+.title {
+    font-size: 80px;
+    font-family: serif;
+    
+}
+
+.title, #slideshow {
+    margin-left: 40px;
+}
+
+.top-wrapper {
+    margin-bottom: 20px;
+}
+.top-wrapper p {
+    display: inline-block;
+    vertical-align:top;
+}
+
+
+.top-wrapper .text {
+    text-align: left;
+    margin-left: 30px;
+    padding: 10px;
+    border: 5px double #333333;
+    background-color: rgb(255, 253, 244);
+}
+
+table{
+    width:300px;
+    height:200px;
+}
+
+
+.top-wrapper img {
+    width: 515px;
+    margin-top: 0px;
+}
+
+#slideshow {
+    position: relative;
+    width:  100px;
+ 
+ }
+ 
+ #slideshow p {
+    position: absolute;
+    top:  0;
+    left: 0;
+    z-index: 8;
+    opacity: 0.0;
+    margin: 0;
+    height: 100px; 
+ }
+ 
+ #slideshow p.active {
+    z-index: 10;
+    opacity: 1.0;
+    background-color: white;
+ }
+ 
+ #slideshow p.last-active {
+    z-index: 9;
+    background-color: white;
+ }
+ 
+ #slideshow p img {
+
+    width: 100px;
+    display: block;
+    border: 0;
+    margin-bottom: 10px; 
+ }
+
+ table,td,tr {
+    border:1px solid #333;
+     background-color: white;
+     margin:0 auto;
+     margin-bottom: 30px;
+ }
+
+ .contents-keywords a {
+    width: 100px;
+    height: 100px;
+    margin:0 33px;
+    display: inline;
+}

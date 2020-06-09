@@ -1,0 +1,147 @@
+body{
+    margin-top: 0;
+    padding:0 10px;
+}
+
+div#header{
+    height: 150px;
+    width:1313px;
+    position:fixed;
+    top:0px;
+    z-index: 10; 
+    background-image: url(../img/DSC_0057.JPG);
+    background-size: 100%;
+    background-position: 20% 58%;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255,0.5);
+    background-blend-mode: lighten;
+}
+
+div#header h1{
+    padding:20px 0px 0px 50px;
+    width:200px;
+    float:left;
+    font-family: cursive;
+    color: #FF7C00;
+    background: -webkit-linear-gradient(top, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div#header ul{
+    float:right;
+    padding-top: 100px;
+    font-weight: 1000;
+    font-size: large;
+}
+
+
+div#header ul li{
+    display: inline;
+    list-style: none;
+    padding:10px;
+    font-family: cursive;
+
+}
+
+#sidemenu,#text{
+    display:inline-block;
+}
+
+div#sidemenu{
+    height:470px;
+    width:15.4%;
+    float:left;
+    position: fixed;
+    top:151px;
+    margin:0px;
+    border:2px black dashed ;
+    background-image: url(../img/b115.jpg);
+    background-blend-mode: lighten;
+}
+
+div#sidemenu li{
+    padding: 5px;
+    font-size: large;
+}
+div#text{
+    background: url(../img/shiisa_one.png);
+    background-color: rgb(255, 255, 255,0.5);
+    background-blend-mode: lighten;
+    width:84%;
+    float:right;
+    top:0px;
+    padding-top: 150px;
+    margin:0px;
+    font-weight: bold;
+}
+
+div#text h4{
+    padding-left:30px;
+}
+
+p{
+    padding-left: 50px;
+}
+a.anchor{
+    display: block;
+    padding-top: 150px;
+    margin-top: -150px;
+}
+
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+    padding-left: 30px;
+    
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+    
+    padding: 15px;
+    font-weight: bold;
+    border: solid 2px black;
+    cursor :pointer;
+    background: #FFB76B;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    
+    background-image: url(../img/11623.png);
+    background-size: 20%;
+}
+
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+.fan_reason{
+    font-weight: 1000;
+    color: red;
+}
+
+.sentence2 img{
+    margin: 2em 0;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
